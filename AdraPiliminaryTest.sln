@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdraPiliminaryTest", "AdraPiliminaryTest\AdraPiliminaryTest.csproj", "{43E0268E-F822-46FC-885A-4BF50F7A362E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{16707ACA-26CC-4776-A9A3-34B8B3A7FB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{B614CC68-CBF1-44DF-A225-C5C4BD632189}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityClasses", "EntityClasses\EntityClasses.csproj", "{931AA0C7-1B07-460B-B10A-79B31029B469}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,23 @@ Global
 		{43E0268E-F822-46FC-885A-4BF50F7A362E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E0268E-F822-46FC-885A-4BF50F7A362E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E0268E-F822-46FC-885A-4BF50F7A362E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16707ACA-26CC-4776-A9A3-34B8B3A7FB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16707ACA-26CC-4776-A9A3-34B8B3A7FB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16707ACA-26CC-4776-A9A3-34B8B3A7FB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16707ACA-26CC-4776-A9A3-34B8B3A7FB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B614CC68-CBF1-44DF-A225-C5C4BD632189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B614CC68-CBF1-44DF-A225-C5C4BD632189}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B614CC68-CBF1-44DF-A225-C5C4BD632189}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B614CC68-CBF1-44DF-A225-C5C4BD632189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{931AA0C7-1B07-460B-B10A-79B31029B469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{931AA0C7-1B07-460B-B10A-79B31029B469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{931AA0C7-1B07-460B-B10A-79B31029B469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{931AA0C7-1B07-460B-B10A-79B31029B469}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35
 	EndGlobalSection
 EndGlobal
